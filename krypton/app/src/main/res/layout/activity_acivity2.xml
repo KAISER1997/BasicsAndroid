@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.harlequin.krypton.Acivity2"
+    android:orientation="vertical">
+
+<EditText
+    android:id="@+id/input"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:hint="fire"
+    android:textSize="42sp"
+    />
+
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CLICKME"
+        android:textSize="42sp"
+        android:onClick="Startwork"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/show"
+        android:textSize="42sp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CLICKME22"
+        android:textSize="42sp"
+        android:onClick="IGNITE"
+        />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SERVIce"
+        android:textSize="42sp"
+        android:onClick="eagle"
+        />
+
+
+
+
+
+
+</LinearLayout>
